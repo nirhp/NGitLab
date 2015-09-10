@@ -32,7 +32,7 @@ namespace NGitLab.Impl
         {
             get
             {
-                return _api.Get().GetAll<Project>(Project.Url + "/all");
+                return _api.Get().GetAll<Project>(Project.Url);
             }
         }
 
